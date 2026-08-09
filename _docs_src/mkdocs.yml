@@ -1,0 +1,28 @@
+site_name: Bash Bootcamp
+site_url: https://udel-cbcb.github.io/bash_bootcamp_ud/
+repo_url: https://github.com/udel-cbcb/bash_bootcamp
+edit_uri: edit/main/_docs_src/src
+site_description: This is a tutorial for newcomers to Bash and the Linux command line.
+site_author: Amelia ). Harrison
+nav:
+  - Bash Bootcamp: index.md
+  - Hands-on Bootcamp:
+      - Setup: Setup_Bash.md
+      - Navigating the File System: 1-Intro_Navigate_Filesystem.md
+      - Working with Files: 2-Working_with_Files.md
+      - Working with Scripts: 3-Working_with_Sripts.md
+  - Additional Resources:
+      - Command Cheat Sheet: Cheat_Sheet.md
+      - Troubelshooting Tips: Troubeleshooting_Tips.md
+theme:
+  name: readthedocs
+  custom_dir: custom_theme
+  # If you need code highlighting set this to true.
+  highlightjs: true
+  # Pick whichever languages you need to highlight.
+  hljs_languages:
+    - bash
+markdown_extensions:
+  - meta
+docs_dir: src
+site_dir: ../_docs
