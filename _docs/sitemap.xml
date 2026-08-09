@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+         <loc>https://udel-cbcb.github.io/bash_bootcamp_ud/</loc>
+         <lastmod>2026-08-09</lastmod>
+    </url>
+    <url>
+         <loc>https://udel-cbcb.github.io/bash_bootcamp_ud/1-Intro_Navigate_Filesystem/</loc>
+         <lastmod>2026-08-09</lastmod>
+    </url>
+    <url>
+         <loc>https://udel-cbcb.github.io/bash_bootcamp_ud/2-Working_with_Files/</loc>
+         <lastmod>2026-08-09</lastmod>
+    </url>
+    <url>
+         <loc>https://udel-cbcb.github.io/bash_bootcamp_ud/3-Working_with_Scripts/</loc>
+         <lastmod>2026-08-09</lastmod>
+    </url>
+    <url>
+         <loc>https://udel-cbcb.github.io/bash_bootcamp_ud/Commands_Vocab/</loc>
+         <lastmod>2026-08-09</lastmod>
+    </url>
+    <url>
+         <loc>https://udel-cbcb.github.io/bash_bootcamp_ud/Setup_Bash/</loc>
+         <lastmod>2026-08-09</lastmod>
+    </url>
+    <url>
+         <loc>https://udel-cbcb.github.io/bash_bootcamp_ud/Troubleshooting_Tips/</loc>
+         <lastmod>2026-08-09</lastmod>
+    </url>
+</urlset>
