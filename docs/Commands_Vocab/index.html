@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="author" content="Amelia ). Harrison" /><link rel="canonical" href="https://udel-cbcb.github.io/bash_bootcamp/Commands_Vocab/" />
+      <link rel="shortcut icon" href="../img/favicon.ico" />
+    <title>Bash Commands &amp; Vocabulary Reference Sheet - Bash Bootcamp</title>
+    <link rel="stylesheet" href="../css/theme.css" />
+    <link rel="stylesheet" href="../css/theme_extra.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" />
+    
+      <script>
+        // Current page data
+        var mkdocs_page_name = "Bash Commands \u0026amp; Vocabulary Reference Sheet";
+        var mkdocs_page_input_path = "Commands_Vocab.md";
+        var mkdocs_page_url = "/bash_bootcamp/Commands_Vocab/";
+      </script>
+    
+    <!--[if lt IE 9]>
+      <script src="../js/html5shiv.min.js"></script>
+    <![endif]-->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/languages/bash.min.js"></script>
+      <script>hljs.highlightAll();</script>
+  
+
+  
+    
+  
+
+  
+
+  
+
+  
+    
+  
+
+
+<meta property="og:site_name" content="Bash Commands &amp; Vocabulary Reference Sheet - Bash Bootcamp" />
+
+<meta property="og:type" content="website">
+
+<meta property="og:title" content="Bash Commands &amp; Vocabulary Reference Sheet - Bash Bootcamp">
+
+<meta property="description" content="This is a tutorial for newcomers to Bash and the Linux command line.">
+<meta property="og:description" content="This is a tutorial for newcomers to Bash and the Linux command line.">
+<meta name="twitter:description" content="This is a tutorial for newcomers to Bash and the Linux command line.">
+
+<meta property="og:url" content="https://udel-cbcb.github.io/bash_bootcamp/Commands_Vocab/">
+
+<meta property="og:locale" content="en_US">
+
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Bash Commands &amp; Vocabulary Reference Sheet - Bash Bootcamp">
+
+  
+
+  
+
+
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+    <div class="wy-side-scroll">
+      <div class="wy-side-nav-search">
+          <a href=".." class="icon icon-home"> Bash Bootcamp
+        </a><div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../search.html" method="get">
+      <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="..">Bash Bootcamp</a>
+                </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Hands-on Bootcamp</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../Setup_Bash/">Setup</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../1-Intro_Navigate_Filesystem/">Navigating the File System</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../2-Working_with_Files/">Working with Files</a>
+                  </li>
+                  <li class="toctree-l1"><a class="" href="../3-Working_with_Sripts.md">Working with Scripts</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Additional Resources</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="" href="../Cheat_Sheet.md">Command Cheat Sheet</a>
+                  </li>
+                  <li class="toctree-l1"><a class="" href="../Troubeleshooting_Tips.md">Troubelshooting Tips</a>
+                  </li>
+              </ul>
+      </div>
+    </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+      <nav class="wy-nav-top" role="navigation" aria-label="Mobile navigation menu">
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="..">Bash Bootcamp</a>
+        
+      </nav>
+      <div class="wy-nav-content">
+        <div class="rst-content"><div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href=".." class="icon icon-home" aria-label="Docs"></a></li>
+      <li class="breadcrumb-item active">Bash Commands &amp; Vocabulary Reference Sheet</li>
+    <li class="wy-breadcrumbs-aside">
+          <a href="https://github.com/udel-cbcb/bash_bootcamp/edit/main/_docs_src/src/Commands_Vocab.md" class="icon icon-github"> Edit on GitHub</a>
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+            <div class="section" itemprop="articleBody">
+              
+                <h1 id="bash-commands-vocabulary-reference-sheet">Bash Commands &amp; Vocabulary Reference Sheet</h1>
+<p>This quick reference covers the essential Bash commands and concepts from this tutorial. While not an exhaustive manual, mastering these core tools gives you everything you need to perform virtually any data analysis workflow on the command line.</p>
+<h2 id="commands">Commands</h2>
+<p><strong>bash</strong> - executes a specified bash script</p>
+<p><strong>cd</strong> - changes directory</p>
+<p><strong>chmod</strong> - changes the permissions of a file</p>
+<p><strong>cp</strong> - copies a file or directory</p>
+<p><strong>echo</strong> - outputs strings that are passed to it as arguments</p>
+<p><strong>grep</strong> - searches a file for a given pattern of characters</p>
+<p><strong>head</strong> - prints the first lines of a given file (default no. of lines is 10)</p>
+<p><strong>less</strong> - displays the contents of a file in a separate screen (use q to exit)</p>
+<p><strong>ls</strong> - lists the contents of a directory</p>
+<p><strong>man</strong> - displays the manual page for the given command (may need to be <a href="https://unix.stackexchange.com/questions/585521/missing-man-pages-under-debian-wsl">installed</a>).  Alternatively, see the <a href="https://www.man7.org/linux/man-pages/man1/bash.1.html">online manual</a>.</p>
+<p><strong>mkdir</strong>- makes a new directory</p>
+<p><strong>nano</strong> - a popular command line text editor</p>
+<p><strong>od -c</strong> - displays all characters in a file (including whitespace)</p>
+<p><strong>pwd</strong> - prints the full working directory path to the screen</p>
+<p><strong>rm</strong> - removes (deletes) files and directories</p>
+<p><strong>sed</strong> - a stream editor that modifies lines from a file</p>
+<p><strong>tail</strong> - prints the last lines of a given file (default no. of lines is 10)</p>
+<p><strong>touch</strong> - modifies the timestamp on a file</p>
+<p><strong>wget</strong> - retrieves content/files from a web server</p>
+<h2 id="vocabulary">Vocabulary</h2>
+<p><strong>Bash</strong> - Unix shell and command language, open source replacement for the Bourne shell</p>
+<p><strong>Command</strong> - a specific instruction provided to a computer</p>
+<p><strong>ommand Line</strong> - a text interface with your computer, provided by a terminal</p>
+<p><strong>Directory</strong> - contains a collection of files and sometimes other directories, mapped to a physical location on a computer's hard drive</p>
+<ul>
+<li>Working Directory - the directory where a user or running program is currently located</li>
+<li>Home Directory - the directory that contains files and directories for a specific user</li>
+</ul>
+<p><strong>Error</strong> - an issue that arises unexpectedly and results in unexpected behavior by the computer</p>
+<p><strong>File</strong> - an object that stores information of some kind
+Tab-separated File - text-based format for storing tabular data in which data fields are separated by tab characters (\t)</p>
+<p><strong>Flag</strong> - a common way to specify options for a command, generally preceded by - or --</p>
+<p><strong>Kernel</strong> - a computer program at the heart of an operating systems that interfaces directly with the hardware</p>
+<p><strong>Path</strong> - the location of a file, directory, software, etc. on a computer</p>
+<ul>
+<li>Relative Path - the location of a file or directory with respect to the working directory (the directory that the user is currently in)</li>
+<li>Absolute Path - the location of an item with respect to the home directory</li>
+</ul>
+<p><strong>Operating System (OS)</strong> - the system software that manages all other software/programs on a computer</p>
+<p><strong>Standard Error (stderr)</strong> - the place where error messages go (usually your screen, by default)</p>
+<p><strong>Standard In (stdin)</strong> - the input stream for a command</p>
+<p><strong>Standard Out (stdout)</strong> - where many commands print their output (directly to the screen)</p>
+<p><strong>Shell</strong> - an interface between a user and the kernel that allows the user to access the operating system</p>
+<p><strong>Terminal</strong> - a text-based interface that allows you to interact with the computer via a shell</p>
+<p><strong>Variable</strong> - an object that stores data of some kind</p>
+              
+            </div>
+          </div><footer>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+  </div>
+
+  Built with <a href="https://www.mkdocs.org/">MkDocs</a> using a <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+          
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" aria-label="Versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    
+        <span>
+          <a href="https://github.com/udel-cbcb/bash_bootcamp" class="fa fa-github" style="color: #fcfcfc"> GitHub</a>
+        </span>
+    
+    
+    
+  </span>
+</div>
+    <script src="../js/jquery-3.6.0.min.js"></script>
+    <script>var base_url = "..";</script>
+    <script src="../js/theme_extra.js"></script>
+    <script src="../js/theme.js"></script>
+      <script src="../search/main.js"></script>
+    <script>
+        jQuery(function () {
+            SphinxRtdTheme.Navigation.enable(true);
+        });
+    </script>
+
+</body>
+</html>
