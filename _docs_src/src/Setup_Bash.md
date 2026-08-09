@@ -23,11 +23,11 @@ The default shell in MacOS is either Bash (older Macs) or zsh (newer Macs).  The
 
 To access Bash or zsh, you will need to open the [terminal](https://support.apple.com/guide/terminal/open-or-quit-terminal-apd5265185d-f365-44cb-8b09-71a064a42125/mac).  You can find the terminal application in `/Applications/Utilities`:
 
-![Terminal location in Finder](./Terminal_finder_location_screenshot.png)
+![Terminal location in Finder](./img/Terminal_finder_location_screenshot.png)
 
 Or by using the Spotlight search feature:
 
-![Spotlight search for terminal](./Terminal_spotlight_search_screenshot.png)
+![Spotlight search for terminal](./img/Terminal_spotlight_search_screenshot.png)
 
 Make sure that you can find and open your terminal!  If you're curious about your default shell, it should be listed in the top bar of the terminal.  Alternatively, type `echo $SHELL` in a terminal and press the Enter key.  If the message printed does not end with `/bash` then your default is something else and you can run Bash by typing bash.  However, zsh is also acceptable for this tutorial.
 
