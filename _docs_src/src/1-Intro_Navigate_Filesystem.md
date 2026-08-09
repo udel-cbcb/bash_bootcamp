@@ -124,13 +124,17 @@ Back to our `ls` example. We want to know more about `ls -l` and what informatio
 ~ $ man ls
 ```
 
-This brings us to the manual (man) page for the `ls` command.  Scrolling down through the flags, we can see that using `-l` has this impact:
+If it is already installed (which should be the case for MacOS users), this brings us to the manual (man) page for the `ls` command.  If you receive a `command not found` error (likely for Windows users), you will need to install the manual.  You can do this by running `sudo apt update` followed by `sudo apt install man-db`.  You will most likely be prompted to enter your password for the commands to run.  Alternatively, you can access the manual online from [this link](https://www.man7.org/linux/man-pages/man1/bash.1.html).
+
+Once you have the man page for `ls` open, crolling down through the flags, we can see that using `-l` has this impact:
 
 ```bash
 -l      (The lowercase letter “ell”.) List files in the long format, as described in the The Long Format subsection below.
 ```
 
-The man page gives a very good description of the long format.  As you have access, I won't copy all of the info here except for this: 
+Note that there are two versions of the manual, a longer version (which is what's available from the link above), and a shorter version.
+
+The longer man page gives a very good description of the long format that is not included in the shorter version.  Here is the most important part:
 
 ```bash
 The following information is displayed for each file: file mode, number of links, owner name, group name, number of bytes in the file, abbreviated month, day-of-month file was last modified, hour file last modified, minute file last modified, and the pathname.
@@ -146,7 +150,9 @@ After running `clear` you should get a screen that is blank except for a prompt 
 
 ## Changing Directories
 
-We know a bit about looking around now, but what about moving around?
+*Note: If you did not download [bash_bootcamp.zip](./bash_bootcamp.zip) and place it on your Desktop as part of the setup, you will need to do so now.  You will also need to unzip the directory before proceeding.*
+
+We now know a bit about looking around now, but what about moving around?
 
 To move within the file system we need to change directories, which is done with the `cd` command.  Let's move into the directory `bash_bootcamp` that was provided to you.  If you have not unzipped the file, you need to do so now.
 
@@ -166,7 +172,18 @@ bash_bootcamp $
 
 There will be output printed to the screen, but you should see the name of the current directory and likely the path to it to the left of the `$`.
 
-A quick note, if you type `cd` and nothing after it, you will be taken to the home directory:
+### Interlude: Potential Issues 
+
+You may be having trouble moving into `bash_bootcamp` on your Desktop for a common reason tied to your operating system:
+
+- **MacOS users:**  You may be receiving a `permission denied` error in trying to access anything on your Desktop.  The solution is to give your terminal broader system access.  Follow the guide [here](https://www.alfredapp.com/help/troubleshooting/indexing/terminal-full-disk-access/) to fix the issue.
+- **Windows users:**  It can be difficult for Windows users to identify the correct path to your Desktop.  See the examples below for assistance.  Make sure to change `username` to your own.  You can also get help from the Windows file explorer to [identify the correct path](https://support.sanjac.edu/TDClient/32/Portal/KB/PrintArticle?ID=5).  Just keep in mind that may will have to [translate the filepath](https://dev.to/imperatoroz/navigating-file-paths-across-windows-linux-and-wsl-a-devops-essential-1n03) from Windows-style to Linux-style.
+    - On the Bash shell from Git for Windows: You will need to use the path `/Users/username/Desktop` in the `cd` command to reach your Windows desktop.  If you are using OneDrive, you will also need to add that to the path, like this: `/Users/username/OneDrive/Desktop`
+    - On WSL: You will need to use the path `/mnt/c/Users/username/Desktop` in the `cd` command to reach your Windows desktop.  If you are using OneDrive, you will also need to add that to the path, like this: `/mnt/c/Users/username/OneDrive/Desktop`
+
+### Back to the tutorial
+
+Note that if you type `cd` and nothing after it, you will be taken to the home directory:
 
 ```bash
 bash_bootcamp $ cd
@@ -199,7 +216,9 @@ park_data $ cd ..
 bash_bootcamp $
 ```
 
-Now that we're back in `bash_bootcamp`, let's take a look at the directory `squirrel_data`.  We could keep using `ls`, but another really useful command for surveying directories and their contents is `tree`:
+Now that we're back in `bash_bootcamp`, let's take a look at the directory `squirrel_data`.  Use `ls` and `cd` to explore.  Just make sure to end your exploration back in `bash_bootcamp`.
+
+The next command is *not* a default bash command, but is very useful for surveying directories and their contents: `tree`.  There is no need to install it for this tutorial ([though you can](https://www.geeksforgeeks.org/linux-unix/tree-command-unixlinux/)), but I am running it to give you a good overview of the `bash_bootcamp` directory, as we will continue working with it. 
 
 ```bash
 bash_bootcamp $ tree
@@ -241,5 +260,5 @@ Here, we can see the structure of `bash_bootcamp`, which is represented by the `
 
 In this lesson, you learned some of the history of bash, a decent amount of vocabulary, and how to navigate the file system.  
 
-In the next lesson, we'll poke around those text files and see what we can do with them.
+In the [next lesson](2-Working_with_Files.md), we'll poke around those text files and see what we can do with them.
 
