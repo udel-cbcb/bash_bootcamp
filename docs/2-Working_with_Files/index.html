@@ -107,14 +107,14 @@
     </li>
     </ul>
                   </li>
-                  <li class="toctree-l1"><a class="" href="../3-Working_with_Sripts.md">Working with Scripts</a>
+                  <li class="toctree-l1"><a class="reference internal" href="../3-Working_with_Scripts/">Working with Scripts</a>
                   </li>
               </ul>
               <p class="caption"><span class="caption-text">Additional Resources</span></p>
               <ul>
-                  <li class="toctree-l1"><a class="" href="../Cheat_Sheet.md">Command Cheat Sheet</a>
+                  <li class="toctree-l1"><a class="reference internal" href="../Commands_Vocab/">Command Cheat Sheet</a>
                   </li>
-                  <li class="toctree-l1"><a class="" href="../Troubeleshooting_Tips.md">Troubelshooting Tips</a>
+                  <li class="toctree-l1"><a class="reference internal" href="../Troubleshooting_Tips/">Troubelshooting Tips</a>
                   </li>
               </ul>
       </div>
@@ -153,7 +153,7 @@
 <p>Now that we know about <code>park_info.txt</code>, let's check those squirrel datasets.  Move into the <code>squirrel_data/brooklyn</code> directory and take a look at <code>mccarren_park_squirrels.txt</code>.  What information is in this file?</p>
 <p>You should see information about individual squirrels, including location, fur color, activities, etc. Go ahead and quit the <code>less</code> view.</p>
 <p>While we're here, let's check out some other ways to look at files.  To print an entire file to the screen, we can use <code>cat</code>:</p>
-<p>```bash brooklyn $ cat mccarren_park_squirrels.txt
+<pre><code class="language-bash">brooklyn $ cat mccarren_park_squirrels.txt
 Area.Name   Area.ID Park.Name   Park.ID Squirrel.ID Primary.Fur.Color   Highlights.in.Fur.Color Color.Notes Location    Above.Ground..Height.in.Feet.   Specific.Location   Activities  Interactions.with.Humans    Other.Notes.or.Observations Squirrel.Latitude..DD.DDDDDD.   Squirrel.Longitude...DD.DDDDDD.
 BROOKLYN    D   McCarren Park   22  D-22-01 Cinnamon    White   NA  Ground Plane    NA  NA  Eating  Indifferent NA  40.72167    -73.953364
 BROOKLYN    D   McCarren Park   22  D-22-02 Gray    White   NA  Ground Plane    NA  NA  Eating  Approaches  NA40.721768 -73.953192
@@ -198,12 +198,10 @@ BROOKLYN    D   McCarren Park   22  D-22-40 Cinnamon    White   NA  Ground Plane
 BROOKLYN    D   McCarren Park   22  D-22-41 Cinnamon    Cinnamon    NA  Above Ground    NA  NA  Running, Foraging   Indifferent Skinny  40.721161   -73.950732
 BROOKLYN    D   McCarren Park   22  D-22-42 Gray    Gray    NA  Above Ground    NA  NA  Climbing    Indifferent Clinging to tree    40.721124   -73.950797
 BROOKLYN    D   McCarren Park   22  D-22-43 Gray    White   NA  Above Ground    10  NA  Running, Chasing, ClimbingIndifferent   Playing with another squirrel in a tree 40.721026   -73.950765
-BROOKLYN    D   McCarren Park   22  D-22-44 Gray    Cinnamon, White NA  Ground Plane    NA  NA  Foraging    Runs From   Ran very quickly    40.719376   -73.952326</p>
-<pre><code>
-This is very useful, but as you can see, this file is maybe a little big for this.  Often, to get a feel for a file like this one, it's useful to check out the first and last few lines of a file.  For this, we can use `head` and `tail`:
-
-```bash
-brooklyn $ head -3 mccarren_park_squirrels.txt
+BROOKLYN    D   McCarren Park   22  D-22-44 Gray    Cinnamon, White NA  Ground Plane    NA  NA  Foraging    Runs From   Ran very quickly    40.719376   -73.952326
+</code></pre>
+<p>This is very useful, but as you can see, this file is maybe a little big for this.  Often, to get a feel for a file like this one, it's useful to check out the first and last few lines of a file.  For this, we can use <code>head</code> and <code>tail</code>:</p>
+<pre><code class="language-bash">brooklyn $ head -3 mccarren_park_squirrels.txt
 Area.Name   Area.ID Park.Name   Park.ID Squirrel.ID Primary.Fur.Color   Highlights.in.Fur.Color Color.Notes Location    Above.Ground..Height.in.Feet.   Specific.Location   Activities  Interactions.with.Humans    Other.Notes.or.Observations Squirrel.Latitude..DD.DDDDDD.   Squirrel.Longitude...DD.DDDDDD.
 BROOKLYN    D   McCarren Park   22  D-22-01 Cinnamon    White   NA  Ground Plane    NA  NA  Eating  Indifferent NA  40.72167    -73.953364
 BROOKLYN    D   McCarren Park   22  D-22-02 Gray    White   NA  Ground Plane    NA  NA  Eating  Approaches  NA40.721768 -73.953192
@@ -544,6 +542,7 @@ Riverside Park (Section Near Grant Memorial)
           </div><footer>
     <div class="rst-footer-buttons" role="navigation" aria-label="Footer Navigation">
         <a href="../1-Intro_Navigate_Filesystem/" class="btn btn-neutral float-left" title="Navigating the File System"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+        <a href="../3-Working_with_Scripts/" class="btn btn-neutral float-right" title="Working with Scripts">Next <span class="icon icon-circle-arrow-right"></span></a>
     </div>
 
   <hr/>
@@ -572,6 +571,8 @@ Riverside Park (Section Near Grant Memorial)
     
       <span><a href="../1-Intro_Navigate_Filesystem/" style="color: #fcfcfc">&laquo; Previous</a></span>
     
+    
+      <span><a href="../3-Working_with_Scripts/" style="color: #fcfcfc">Next &raquo;</a></span>
     
   </span>
 </div>
