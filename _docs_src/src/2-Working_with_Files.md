@@ -20,7 +20,8 @@ You should see information about individual squirrels, including location, fur c
 
 While we're here, let's check out some other ways to look at files.  To print an entire file to the screen, we can use `cat`:
 
-```bash brooklyn $ cat mccarren_park_squirrels.txt
+```bash 
+brooklyn $ cat mccarren_park_squirrels.txt
 Area.Name	Area.ID	Park.Name	Park.ID	Squirrel.ID	Primary.Fur.Color	Highlights.in.Fur.Color	Color.Notes	Location	Above.Ground..Height.in.Feet.	Specific.Location	Activities	Interactions.with.Humans	Other.Notes.or.Observations	Squirrel.Latitude..DD.DDDDDD.	Squirrel.Longitude...DD.DDDDDD.
 BROOKLYN	D	McCarren Park	22	D-22-01	Cinnamon	White	NA	Ground Plane	NA	NA	Eating	Indifferent	NA	40.72167	-73.953364
 BROOKLYN	D	McCarren Park	22	D-22-02	Gray	White	NA	Ground Plane	NA	NA	Eating	Approaches	NA40.721768	-73.953192

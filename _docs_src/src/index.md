@@ -19,7 +19,7 @@ This walk-through will equip you with all the skills needed to get started with 
 
 - **Hands-On Bootcamp**
     - [Setup](Setup_Bash.md)
-    - [Navigating the File](System: 1-Intro_Navigate_Filesystem.md)
+    - [Navigating the File System](1-Intro_Navigate_Filesystem.md)
     - [Working with Files](2-Working_with_Files.md)
     - [Working with Scripts](3-Working_with_Scripts.md)
 

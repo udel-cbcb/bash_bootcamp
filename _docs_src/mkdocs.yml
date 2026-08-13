@@ -10,10 +10,10 @@ nav:
       - Setup: Setup_Bash.md
       - Navigating the File System: 1-Intro_Navigate_Filesystem.md
       - Working with Files: 2-Working_with_Files.md
-      - Working with Scripts: 3-Working_with_Sripts.md
+      - Working with Scripts: 3-Working_with_Scripts.md
   - Additional Resources:
-      - Command Cheat Sheet: Cheat_Sheet.md
-      - Troubelshooting Tips: Troubeleshooting_Tips.md
+      - Command Cheat Sheet: Commands_Vocab.md
+      - Troubelshooting Tips: Troubleshooting_Tips.md
 theme:
   name: readthedocs
   custom_dir: custom_theme
