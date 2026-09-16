@@ -8,4 +8,4 @@ The tutorial is best available at the following link:
 
 (c) 2026 by Amelia O. Harrison
 
-The Biomix Tutorial is licensed under the MIT License.
+The Bash Bootcamp Tutorial is licensed under the MIT License.
